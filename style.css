@@ -1,0 +1,17 @@
+main{
+    width: 1000px;
+    height: auto;
+    border: 2px solid;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+#cardbox{
+    background-color: brown;
+    width: 200px;
+}
+
+form{
+    padding: 20px;
+}
