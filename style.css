@@ -13,5 +13,39 @@ main{
 }
 
 form{
-    padding: 20px;
+    padding: 150px;
+   
+}
+
+.MM{
+    width: 50px;
+    padding: 5px;
+}
+
+.CVC{
+    width: 100px;
+}
+
+#cvc{
+    margin-left: 50px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.form-pad{
+    padding: 5px;
+}
+
+#button{
+    margin-top: 30px;
+}
+
+#card-holder-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#card-number{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
