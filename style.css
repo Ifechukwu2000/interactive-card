@@ -9,7 +9,7 @@ main{
 
 #cardbox{
     background-color: brown;
-    width: 200px;
+    width: 300px;
 }
 
 form{
@@ -48,4 +48,20 @@ form{
 #card-number{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#creditCard{
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#creditCard2{
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 50px;
 }
