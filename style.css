@@ -90,3 +90,21 @@ input[type=submit]{
   padding-bottom: 10px;
   border-radius: 5px;
 }
+
+#card-det{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jane{
+    font-size: 12px;
+    color: white;
+    
+}
+
+#num1{
+    letter-spacing: 4px;
+    margin-left: 20px;
+    margin-top: 70px;
+    color: white;
+}
