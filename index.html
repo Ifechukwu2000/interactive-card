@@ -29,10 +29,12 @@
         <label for="card-holder-name" class="label-pad">CARD HOLDER NAME</label>
         <br>
         <input type="text" id="card-holder-name" name="card-holder-name" required placeholder="e.g Jane Appleseed" class="form-pad">
+        <p class="error" id="card-holder-name-error"></p>
         <br>
         <label for="card-number" class="label-pad">CARD NUMBER</label>
         <br>
         <input type="tel" id="card-number" inputmode="numeric" required maxlength="19" pattern="[0-9\s]{13,19}" name="card-number" placeholder="e.g 1234 5678 9123 0000" class="form-pad">
+        <p class="error" id="card-number-error"></p>
         <br>
         <div id="form-flex">
         <label for="exp-date" class="label-pad">EXP. DATE (MM/YY)</label>
@@ -40,16 +42,22 @@
         <br>
         
         <input type="text" id="exp-date" name="exp-date" required placeholder="MM" class="MM" class="form-pad">
-        <input type="text" id="exp-date" name="exp-date" required placeholder="YY" class="MM" class="form-pad">
         
+        <input type="text" id="exp-date1" name="exp-date" required placeholder="YY" class="MM" class="form-pad">
+       
         
-        
-        <input type="password" id="cvc" name="cvc" required placeholder="e.g 123" class="CVC" class="form-pad">
+        <input type="password" id="cvc1" name="cvc" required placeholder="e.g 123" class="CVC" class="form-pad">
+       <div id="err1">
+        <p class="error" id="exp-date-error"></p>
+        <p class="error" id="exp-date-error1"></p>
+        <p class="error" id="cvc-error"></p>
+      </div>
         <br>
       </div>
-        <input type="submit" value="Confirm" id="button">
+        <input type="submit" value="Confirm" id="button" onclick="return validateForm()">
       </form>
     </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

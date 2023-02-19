@@ -29,7 +29,7 @@ form{
     width: 100px;
 }
 
-#cvc{
+#cvc1{
     margin-left: 50px;
     padding: 5px;
     margin-top: 10px;
@@ -114,4 +114,60 @@ input[type=submit]{
     margin-left: 230px;
     font-size: 12px;
     color: white;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    
+  }
+
+  #err1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+}
+
+#cvc-error{
+    margin-right: 20px;
+}
+
+#exp-date-error, #exp-date-error1{
+    font-size: 10px;
+}
+
+#exp-date-error1{
+    margin-right: 55px;
+}
+
+#cvc{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        display: block;
+        width: 500px;
+       
+       
+    }
+
+    #cardbox{
+        width: 500px;
+        height: fit-content;
+       
+    }
+
+    #creditCard{
+        margin-top: 0px;
+    }
+
+    #creditCard2{
+        
+    }
+
 }
