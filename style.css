@@ -164,10 +164,58 @@ input[type=submit]{
 
     #creditCard{
         margin-top: 0px;
+        position: relative;
+        z-index: 9998!important;
+        top: 250px;
+        
     }
 
     #creditCard2{
+        position: relative;
+        bottom: 80px;
         
+    }
+
+    #card-holder-name{
+        width: 300px;
+        height: 30px;
+    }
+
+    form{
+        padding-left: 80px;
+    }
+
+    ::placeholder {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 14px;
+      }
+
+      #card-number{
+        width: 300px;
+        height: 30px;
+      }
+
+      #exp-date{
+        width: 100px;
+        height: 20px;
+      }
+
+      #exp-date1{
+        width: 100px;
+        height: 20px;
+      }
+
+    #cvc{
+        margin-left: 280px;
+        position: relative;
+        bottom: 20px;
+        
+    }
+
+    #cvc1{
+        margin-left: 280px;
+        position: relative;
+        bottom: 40px;
     }
 
 }
