@@ -56,3 +56,32 @@ function validateForm() {
 
     return isValid;
 }
+
+const cardHolderName = document.getElementById("card-holder-name");
+const cardHolderName1 = document.getElementById("cardname3");
+
+cardHolderName.addEventListener("input", (event) => {
+  const cardHolderValue = event.target.value;
+
+  cardHolderName1.innerHTML =  cardHolderValue;
+});
+
+const cardNumber = document.getElementById("card-number");
+const cardNumber1 = document.getElementById("num1");
+
+cardNumber.addEventListener("input", (event) => {
+  const cardHolderValue1 = event.target.value;
+
+  cardNumber1.innerHTML =  cardHolderValue1;
+});
+
+
+const CVV1 = document.getElementById("cvc1");
+const CVV2= document.getElementById("cvv3");
+
+CVV1.addEventListener("input", (event) => {
+  const cardHolderValue2 = event.target.value;
+
+  CVV2.innerHTML =  cardHolderValue2;
+});
+
