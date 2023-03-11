@@ -85,3 +85,22 @@ CVV1.addEventListener("input", (event) => {
   CVV2.innerHTML =  cardHolderValue2;
 });
 
+const MM1 = document.getElementById("exp-date");
+const MM2= document.getElementById("mm1");
+
+
+MM1.addEventListener("input", (event) => {
+  const cardHolderValue3 = event.target.value;
+
+  MM2.innerHTML =  cardHolderValue3;
+});
+
+const YY1 = document.getElementById("exp-date1");
+const YY2= document.getElementById("yy1");
+
+
+YY1.addEventListener("input", (event) => {
+  const cardHolderValue4 = event.target.value;
+
+  YY2.innerHTML =  cardHolderValue4;
+});
